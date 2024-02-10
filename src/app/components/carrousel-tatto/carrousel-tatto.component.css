@@ -1,0 +1,15 @@
+.title-carls{
+  font-family: "Bebas Neue" ;
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  height: 90px;
+  font-style: normal;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
