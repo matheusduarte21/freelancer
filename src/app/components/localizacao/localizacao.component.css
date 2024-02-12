@@ -43,9 +43,9 @@ iframe {
   display: flex;
 }
 
- @media (max-width: 900px) {
-  .content-right{
-    display: none;
+ @media (max-width: 999px) {
+   .content-right{
+  display: none;
   }
   .content-left {
     width:100%;
@@ -58,7 +58,6 @@ iframe {
     width:50%;
   }
   .content-right{
-    display:
-    block;
+    display: block;
   }
 }

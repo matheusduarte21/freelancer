@@ -17,17 +17,6 @@
   padding-top: 45px;
 }
 
-.camada-blur{
-  position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Exemplo de cor de fundo com transparência */
-    filter: blur(9px);
-    z-index: 1;
-}
-
 .content-buttons{
     display: flex;
     justify-content: center;

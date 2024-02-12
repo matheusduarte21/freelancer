@@ -11,7 +11,6 @@ export class MainPageComponent {
   ){}
 
   scrollToComponent(): void {
-    // Supondo que `destinoComponent` seja a variável de template do componente de destino
     const element = this.viewContainerRef.element.nativeElement.ownerDocument.querySelector('#destino');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
