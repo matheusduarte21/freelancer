@@ -13,11 +13,9 @@ body {
   font-style: normal;
 }
 
-@media only screen and (max-width: 450px) {
-  /* Seus estilos para telas de até 450px de largura aqui */
-  body {
-
-  }
+.container-geral{
+  max-width: 1450px;
+  margin: auto;
 }
 
 

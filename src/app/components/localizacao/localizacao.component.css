@@ -19,3 +19,46 @@ iframe {
 .container-local {
   background-color: #0e0d0d;
 }
+
+.content-right
+{
+  width: 50%;
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 1.5em;
+  color: #fff;
+  align-items: center;
+  text-align: justify;
+  display: none;
+  justify-content: center;
+  padding: 80px;
+  font-weight: 500;
+}
+
+.content-left {
+  width: 50%;
+}
+
+.container-localizacao{
+  display: flex;
+}
+
+ @media (max-width: 900px) {
+  .content-right{
+    display: none;
+  }
+  .content-left {
+    width:100%;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .content-left {
+    width:50%;
+  }
+  .content-right{
+    display:
+    block;
+  }
+}
